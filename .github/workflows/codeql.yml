@@ -46,9 +46,7 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3
-      with:
-       path: src/main/java/com/example
+      uses: actions/checkout@v2
 
     # Initializes the CodeQL tools for scanning.
     - name: Initialize CodeQL
